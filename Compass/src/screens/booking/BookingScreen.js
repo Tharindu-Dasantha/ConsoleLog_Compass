@@ -1,10 +1,10 @@
-import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
+import React from 'react';
 
-const TravelScreen: React.FC = () => {
+const BookingScreen = () => {
     return (
         <View style={styles.container}>
-            <Text style={styles.text}>Travel Screen</Text>
+            <Text style={styles.text}>Booking Screen</Text>
         </View>
     );
 };
@@ -21,4 +21,5 @@ const styles = StyleSheet.create({
     },
 });
 
-export default TravelScreen;
+export default BookingScreen;
+

@@ -1,10 +1,10 @@
-import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
+import React from 'react';
 
-const VisaScreen: React.FC = () => {
+const HomeScreen = () => {
     return (
         <View style={styles.container}>
-            <Text style={styles.text}>Visa Screen</Text>
+            <Text style={styles.text}>Home Screen</Text>
         </View>
     );
 };
@@ -21,4 +21,4 @@ const styles = StyleSheet.create({
     },
 });
 
-export default VisaScreen;
+export default HomeScreen;
