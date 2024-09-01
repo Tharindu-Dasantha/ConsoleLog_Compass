@@ -1,15 +1,17 @@
+
 import React from 'react';
+import { View, Text } from 'react-native';
 
 interface HomeScreenProps {
     // Define your props here
 }
 
-const HomeScreen: React.FC<HomeScreenProps> = () => {
+const HomeScreen: React.FC<HomeScreenProps> = (props) => {
     return (
-        <div>
+        <View>
             {/* Your component content goes here */}
-            <p>Hello world</p>
-        </div>
+            <Text>Hello world</Text>
+        </View>
     );
 };
 
